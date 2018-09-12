@@ -12,7 +12,7 @@ The lot of this can be found directly on the [_Microsoft_ site](https://docs.mic
 
 This is the traditional data-set and data-reader technology the we have always loved with C#.
 
-```C#
+```csharp
 // this is a reader connection
 var connectionString = {my connection string}
 var query = "SELECT * FROM users";
