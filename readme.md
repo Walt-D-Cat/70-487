@@ -3,6 +3,7 @@
 - [70-487 Exam Prep Notes](#70-487-exam-prep-notes)
   - [Journal](#journal)
     - [2018-09-14](#2018-09-14)
+    - [2018-09-17](#2018-09-17)
   - [General Notes](#general-notes)
     - [Resources](#resources)
   - [Note Organized by Topic](#note-organized-by-topic)
@@ -48,6 +49,12 @@
 
 Restarted the learning plan.  I've run through the _Azure_ primer on [_PluralSight_](https://www.pluralsight.com/courses/dd24bd67-7526-48d4-a313-a0a5ff82ad2d), yes extremely general.  Does a reasonable job of high level overview.
 
+### 2018-09-17
+
+Formulated a [specific learning plan](https://docs.google.com/spreadsheets/d/1xOc2QMJOgeGxni6tqxvsw-e9zkcNcjag5g3HzQ9krc8/edit?usp=sharing) and shared with Lise and Andrew.  I haven't heard from Andrew about his plan moving forward.  Filling in a gap on the _CosmosDB_ by watching the introductory [PluralSight](https://app.pluralsight.com/library/courses/azure-cosmos-db/table-of-contents) video.
+
+Moving on to the second box: _Implement Caching_.  [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching) has stuff to say about caching.  The _FTT_ blogsite seems to go down an object cache route, I'm going to stick with traditional web caching, and move on from there.
+
 ## General Notes
 
 ### Resources
@@ -69,7 +76,7 @@ Resource | Type | Current | Notes
 
 > Choose a data access technology, including ADO.NET, Entity Framework, WCF Data Services, and Azure Cosmos DB, based on application requirements
 
-This section is about choosing a data access technology, so knowing the features of each technology is key.  Questions will likely be a list of requirements and a _pick tech stack_ multiple choice.  The how to do something is in the mplementatoin sections down below.
+This section is about choosing a data access technology, so knowing the features of each technology is key.  Questions will likely be a list of requirements and a _pick tech stack_ multiple choice.  The how to do something is in the implementation sections down below.
 
 The lot of this can be found directly on the [_Microsoft_ site](https://docs.microsoft.com/en-us/dotnet/framework/data).
 
@@ -127,7 +134,11 @@ There is also LINQ to DataSet, in reality this looks are cumbersome as you would
 
 ##### WCF Data Services
 
+This is the technology stack formerly known as OData.
+
 ##### Cosmos DB
+
+Started in on the PluralSight video.
 
 #### Implement caching
 
