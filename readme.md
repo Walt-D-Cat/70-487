@@ -1,48 +1,5 @@
 # 70-487 Exam Prep Notes
 
-- [70-487 Exam Prep Notes](#70-487-exam-prep-notes)
-  - [Journal](#journal)
-    - [2018-09-14](#2018-09-14)
-    - [2018-09-17](#2018-09-17)
-  - [General Notes](#general-notes)
-    - [Resources](#resources)
-  - [Note Organized by Topic](#note-organized-by-topic)
-    - [Accessing Data (20-25%)](#accessing-data-20-25)
-      - [Choose data access technologies](#choose-data-access-technologies)
-        - [ADO.NET](#adonet)
-        - [Entity Framework](#entity-framework)
-        - [WCF Data Services](#wcf-data-services)
-        - [Cosmos DB](#cosmos-db)
-      - [Implement caching](#implement-caching)
-      - [Implement transactions](#implement-transactions)
-      - [Implement data storage in Microsoft Azure](#implement-data-storage-in-microsoft-azure)
-      - [Create and implement a WCF Data Services service](#create-and-implement-a-wcf-data-services-service)
-    - [Querying and Manipulating Data by Using the Entity Framework (20-25%)](#querying-and-manipulating-data-by-using-the-entity-framework-20-25)
-      - [Query and manipulate data by using the Entity Framework](#query-and-manipulate-data-by-using-the-entity-framework)
-      - [Query and manipulate data by using Data Provider for Entity Framework](#query-and-manipulate-data-by-using-data-provider-for-entity-framework)
-      - [Query data by using LINQ to Entities](#query-data-by-using-linq-to-entities)
-      - [Query and manipulate data by using ADO.NET](#query-and-manipulate-data-by-using-adonet)
-      - [Create an Entity Framework data model](#create-an-entity-framework-data-model)
-      - [Implement Entity Framework with third party databases](#implement-entity-framework-with-third-party-databases)
-    - [Creating and Consuming Web API-based services (20-25%)](#creating-and-consuming-web-api-based-services-20-25)
-      - [Design a Web API](#design-a-web-api)
-      - [Implement a Web API](#implement-a-web-api)
-      - [Secure a Web API](#secure-a-web-api)
-      - [Host and manage Web API](#host-and-manage-web-api)
-      - [Consume Web API web services](#consume-web-api-web-services)
-    - [Designing and Implementing Web Services (15-20%)](#designing-and-implementing-web-services-15-20)
-      - [Consume a WCF service](#consume-a-wcf-service)
-      - [Implement serverless Azure Web Services](#implement-serverless-azure-web-services)
-      - [Implement traffic management in Azure](#implement-traffic-management-in-azure)
-      - [Implement Azure API Management](#implement-azure-api-management)
-      - [Monitor web services](#monitor-web-services)
-    - [Deploying Web Applications and Services (15-20%)](#deploying-web-applications-and-services-15-20)
-      - [Design a deployment strategy](#design-a-deployment-strategy)
-      - [Choose a deployment strategy for Azure](#choose-a-deployment-strategy-for-azure)
-      - [Configure a web application for deployment](#configure-a-web-application-for-deployment)
-      - [Manage packages by using NuGet](#manage-packages-by-using-nuget)
-      - [Share assemblies between multiple applications and servers](#share-assemblies-between-multiple-applications-and-servers)
-
 ## Journal
 
 ### 2018-09-14
@@ -53,7 +10,11 @@ Restarted the learning plan.  I've run through the _Azure_ primer on [_PluralSig
 
 Formulated a [specific learning plan](https://docs.google.com/spreadsheets/d/1xOc2QMJOgeGxni6tqxvsw-e9zkcNcjag5g3HzQ9krc8/edit?usp=sharing) and shared with Lise and Andrew.  I haven't heard from Andrew about his plan moving forward.  Filling in a gap on the _CosmosDB_ by watching the introductory [PluralSight](https://app.pluralsight.com/library/courses/azure-cosmos-db/table-of-contents) video.
 
-Moving on to the second box: _Implement Caching_.  [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching) has stuff to say about caching.  The _FTT_ blogsite seems to go down an object cache route, I'm going to stick with traditional web caching, and move on from there.
+Moving on to the second box: _Implement Caching_.  [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching) has stuff to say about caching.  The _FTT_ blogsite seems to go down an object cache route, I'm going to stick with traditional web caching, and move on from there.  Watched the first half of the [_PluralSight CosmosDB_](https://app.pluralsight.com/library/courses/azure-cosmos-db/table-of-contents).
+
+### 208-09-18
+
+Bit of a frustrating day, didn't get a whole lot done.  Did find a good article on [_Azure for Developers_](https://azure.microsoft.com/en-us/campaigns/developer-guide/), trying to plow through this.  There's also a [site](https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide) which covers this.  This is an much higher level then I actually need and is far more general, I need coverage on some specific tasks and features, this is not that.
 
 ## General Notes
 
