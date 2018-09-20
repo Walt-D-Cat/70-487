@@ -12,9 +12,19 @@ Formulated a [specific learning plan](https://docs.google.com/spreadsheets/d/1xO
 
 Moving on to the second box: _Implement Caching_.  [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching) has stuff to say about caching.  The _FTT_ blogsite seems to go down an object cache route, I'm going to stick with traditional web caching, and move on from there.  Watched the first half of the [_PluralSight CosmosDB_](https://app.pluralsight.com/library/courses/azure-cosmos-db/table-of-contents).
 
-### 208-09-18
+### 2018-09-18
 
 Bit of a frustrating day, didn't get a whole lot done.  Did find a good article on [_Azure for Developers_](https://azure.microsoft.com/en-us/campaigns/developer-guide/), trying to plow through this.  There's also a [site](https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide) which covers this.  This is an much higher level then I actually need and is far more general, I need coverage on some specific tasks and features, this is not that.
+
+### 2018-09-19
+
+Today the plan is to build a web site that hits as many of the _Azure_ items as possible.  I think a light bulb just went off - _Developing Windows Azure and Web Services_, the new plan on building something is to build an extension for OMS that is data-services.
+
+username | password
+--- | ---
+walt.speelman | 4fK!h9jI38P%r0^s
+
+Ouch, the _Azure SQL_ service is at a minimum $2.70 an hour for a _Managed Instance_ that's a bit rich.  Going to build this with a plain old SQL Server instance.
 
 ## General Notes
 
@@ -31,7 +41,7 @@ Resource | Type | Current | Notes
 
 ## Note Organized by Topic
 
-### Accessing Data (20-25%)
+### Accessing Data (20-25)
 
 #### Choose data access technologies
 
